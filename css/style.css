@@ -9794,3 +9794,7 @@ textarea.form-control {
   text-transform: Uppercase;
 }
 
+.ftco-project {
+  max-width: 1500px;
+  margin: auto;
+}
