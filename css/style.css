@@ -880,9 +880,9 @@ pre {
     max-width: 16.66667%; }
   .col-md-3 {
     -webkit-box-flex: 0;
-    -ms-flex: 0 0 35%;
-    flex: 0 0 30%;
-    max-width: 35%; }
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%; }
   .col-md-4 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 33.33333%;
@@ -9798,3 +9798,9 @@ textarea.form-control {
   max-width: 1500px;
   margin: auto;
 }
+
+.projDivs {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 35%;
+  flex: 0 0 30%;
+  max-width: 35%; }
