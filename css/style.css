@@ -480,7 +480,7 @@ pre {
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px; }
-
+  
 .no-gutters {
   margin-right: 0;
   margin-left: 0; }
@@ -9804,3 +9804,14 @@ textarea.form-control {
   -ms-flex: 0 0 35%;
   flex: 0 0 30%;
   max-width: 35%; }
+
+@media (max-width: 576px) {
+  .projDivs {
+    width: 100%;
+  }
+  .col-md-3 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%; }
+}
